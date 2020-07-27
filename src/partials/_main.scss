@@ -1,0 +1,11 @@
+main{
+  padding: 10px;
+  table {
+    thead tr th{
+      @include th_td_design;
+    }
+    tbody tr td{
+      @include th_td_design;
+    }
+  }
+}
