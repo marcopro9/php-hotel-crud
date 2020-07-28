@@ -25,4 +25,5 @@
       <input type="submit" name="" value="Salva">
     </div>
   </form>
+    <a href="<?php echo $base_path ?>">Torna alla lista delle stanze</a>
 </main>

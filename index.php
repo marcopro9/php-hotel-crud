@@ -29,6 +29,12 @@
              <td><?php echo $room['floor']; ?></td>
              <td><a href="<?php echo $base_path . '/show/show.php?id='. $room['id'];?>">View</a></td>
              <td><a href="<?php echo $base_path . '/update/edit.php?id='. $room['id'];?>">Update</a></td>
+             <td>
+               <form  action="<?php echo $base_path . '/delete/delete.php' ?>" method="post">
+                 <input type="hidden" name="formid" value="<?php $room['id']; ?>">
+                 <input type="submit" name="" value="Delete">
+               </form>
+             </td>
            </tr>
            <!-- singola stanza -->
         <?php } ?>
